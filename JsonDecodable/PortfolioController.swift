@@ -59,7 +59,18 @@ class PortfolioController: UITableViewController {
         return cell
     }
     
-    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let portfolio = portfolios[indexPath.row]
+        
+        let portfolioVC = ViewController()
+        portfolioVC.view.backgroundColor = .blue
+        portfolioVC.portfolioLabel.text = portfolio.type
+        
+        print("selected a portfolio with indexPath \(indexPath) for portfolio \(portfolio.type)")
+        
+        present(portfolioVC, animated: true, completion: nil)
+    }
 
     
 

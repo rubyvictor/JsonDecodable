@@ -13,6 +13,7 @@
 		B12789DD2116AB3600CF018C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12789DC2116AB3600CF018C /* Assets.xcassets */; };
 		B12789E02116AB3600CF018C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12789DE2116AB3600CF018C /* LaunchScreen.storyboard */; };
 		B12789E92116AE1B00CF018C /* Portfolios.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12789E82116AE1B00CF018C /* Portfolios.swift */; };
+		B15D6C592160815000C3C49E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15D6C582160815000C3C49E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B12789DF2116AB3600CF018C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B12789E12116AB3600CF018C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B12789E82116AE1B00CF018C /* Portfolios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolios.swift; sourceTree = "<group>"; };
+		B15D6C582160815000C3C49E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B12789DC2116AB3600CF018C /* Assets.xcassets */,
 				B12789DE2116AB3600CF018C /* LaunchScreen.storyboard */,
 				B12789E12116AB3600CF018C /* Info.plist */,
+				B15D6C582160815000C3C49E /* ViewController.swift */,
 			);
 			path = JsonDecodable;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				B12789D82116AB3300CF018C /* PortfolioController.swift in Sources */,
 				B12789E92116AE1B00CF018C /* Portfolios.swift in Sources */,
+				B15D6C592160815000C3C49E /* ViewController.swift in Sources */,
 				B12789D62116AB3300CF018C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
