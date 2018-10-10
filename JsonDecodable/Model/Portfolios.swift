@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct Portfolios: Decodable {
+struct Portfolios: Codable {
     let portfolio: Int
     let type: String
     let expReturns: Float
